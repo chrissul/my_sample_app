@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'pry'
 
 group :test do
+  gem 'rubyzip', '< 1.0.0'
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
 end
